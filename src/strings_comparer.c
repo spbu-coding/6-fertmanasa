@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../Downloads/sortings.h"
+#include "sortings.h"
 
 #define MAX_FILENAME_LEN 100
 #define VALID_ARGUMENTS_NUM 6
