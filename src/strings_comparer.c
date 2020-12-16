@@ -76,7 +76,7 @@ int set_arguments_value(int argc, char **argv, arguments_t *arguments)
     {
         arguments->func_type = radix;
     } else
-        {
+    {
         error("You should enter valid name of sort\n");
         return ERROR_CODE;
     }
@@ -87,7 +87,7 @@ int set_arguments_value(int argc, char **argv, arguments_t *arguments)
     {
         arguments->comparer = des_cmp;
     } else
-        {
+    {
         error("You should enter valid name of comparator\n");
         return ERROR_CODE;
     }

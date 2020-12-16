@@ -131,8 +131,7 @@ void merge(strings_array_t array, array_size_t size, comparator_func_t cmp)
             mid += step * 2;
             right += step * 2;
         } while (left < size);
-        for (array_size_t i = 0; i < size; i++)
-        {
+        for (array_size_t i = 0; i < size; i++) {
             array[i] = temp[i];
         }
         step *= 2;
